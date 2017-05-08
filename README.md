@@ -1,3 +1,11 @@
+
+`This fork deviates from the original implementation of hashids, do not expect this version to be compatible with previous implemenations.`
+
+## Why did I fork hashids.net?
+* More opinionated codebase (throwing on bad args)
+* Hard coded values for length checks (https://github.com/ullmark/hashids.net/issues/20)
+* Proper naming conventions for .NET
+
 # Hashids
 A small .NET package to generate YouTube-like hashes from one or many numbers. 
 Use hashids when you do not want to expose your database ids to the user.
