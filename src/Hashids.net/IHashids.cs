@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace HashidsNet
 {
     /// <summary>
-    /// Describes a Hashids provider
+    /// Describes a HashIds provider
     /// </summary>
-    public interface IHashids
+    public interface IHashIds
     {
         /// <summary>
         /// Decodes the provided hashed string.
